@@ -1,0 +1,284 @@
+    1  conda create -n chatweb python=3.10
+    2  vi his.all 
+    3  conda init
+    4  df .
+    5  sudo apt update
+    6  df
+    7  sudo mount /dev/nvme0n1p4 /mnt
+    8  ls /mnt
+    9  sudo umount /mnt
+   10  sudo mount /dev/nvme0n1p5 /mnt
+   11  ls /mnt
+   12  sudo umount /mnt
+   13  sudo mount /dev/nvme0n1p6 /mnt
+   14  ls /mnt
+   15  sudo umount /mnt
+   16  sudo mount /dev/sda4 /mnt
+   17  ls /mnt
+   18  ls /mnt/home/acampton
+   19  ls /mnt/home/acampton2
+   20  find /mnt/home/acampton2 -name his.all
+   21  cat /mnt/home/acampton2/privateGPT/his.all
+   22  cat /mnt/home/acampton2/privateGPT/his.all > ~/his.all
+   23  cd h2ogpt/
+   24  vi setenvs.sh
+   25  nvcc
+   26  vi setenvs.sh
+   27  cat /etc/lsb-release 
+   28  cat setenvs.sh 
+   29  vi setenvs.sh
+   30  ls
+   31  ls -l
+   32  cat his.all 
+   33  cat his.all |more
+   34  conda
+   35  locate
+   36  sudo apt install plocate
+   37  wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+   38  chmod +x Anaconda3-2023.09-0-Linux-x86_64.sh 
+   39  bash Anaconda3-2023.09-0-Linux-x86_64.sh
+   40  grep conda his.all 
+   41  conda create -n chatweb python=3.10
+   42  sudo apt install vim
+   43  git clone https://github.com/imartinez/privateGPT
+   44  sudo apt install git
+   45  bash Anaconda3-2023.09-0-Linux-x86_64.sh
+   46  bash Anaconda3-2023.09-0-Linux-x86_64.sh -u
+   47  bash Anaconda3-2023.09-0-Linux-x86_64.sh 
+   48  bash Anaconda3-2023.09-0-Linux-x86_64.sh -u
+   49  vi /home/acampton/.bashrc
+   50  source /home/acampton/.bashrc
+   51  conda init
+   52  conda deactivate
+   53  history
+   54  conda create -n chatweb python=3.10
+   55  grep create his.all 
+   56  conda create -n chatweb python=3.10
+   57  conda create -n privategpt python=3.11
+   58  vi his.all 
+   59  git clone https://github.com/imartinez/privateGPT
+   60  grep clone his.all 
+   61  grep h2o his.all 
+   62  git clone  https://github.com/h2oai/h2ogpt
+   63  history | grep conda
+   64  '!27:p
+   65  conda create -n privategpt python=3.11
+   66  conda create -n h2ogpt python=3.10
+   67  cd h2ogpt/
+   68  conda activate h2ogpt
+   69  ls
+   70  pip install -r requirements.txt 
+   71  cat setenvs.sh 
+   72  export PIP_EXTRA_INDEX_URL="https://download.pytorch.org/whl/cu121 https://huggingface.github.io/autogptq-index/whl/cu121"
+   73  pip install -r reqs_optional/requirements_optional_langchain.txt
+   74  cat setenvs.sh 
+   75  pip install -r reqs_optional/requirements_optional_gpt4all.txt
+   76  pip install -r reqs_optional/requirements_optional_langchain.urls.txt
+   77  python generate.py --base_model=TheBloke/zephyr-7B-beta-GGUF --prompt_type=zephyr --max_seq_len=4096
+   78  pip install langchain
+   79  head setenvs.sh 
+   80  echo $PIP_EXTRA_INDEX_URL 
+   81  vi README.md 
+   82  vi setenvs.sh 
+   83  ls
+   84  mkdir openchat
+   85  cd openchat/
+   86  vi main.py
+   87  cd ..
+   88  cd privateGPT/
+   89  ls
+   90  git pull
+   91  conda deactivate
+   92  conda activate privategpt
+   93  poetry install --with ui,local
+   94  curl -sSL https://install.python-poetry.org | python3 -
+   95  vi ~/.bashrc
+   96  export PATH="/home/acampton/.local/bin:$PATH"`
+   97  export PATH="/home/acampton/.local/bin:$PATH"
+   98  vi setup.sh 
+   99  mv setup.sh ../openchat/
+  100  poetry init
+  101  poetry install --with ui,local
+  102  poetry --uninstall
+  103  curl -sSL https://install.python-poetry.org > a.sh
+  104  vi a.sh
+  105  mv a.sh poetry_inst.sh
+  106  chmod +x poetry_inst.sh
+  107  ./poetry_inst.sh --uninstall
+  108  sudo apt install poetry
+  109  sudo apt install python3-poetry
+  110  poetry install --with ui,local
+  111  sudo apt purge python3-poetry
+  112  pip install poetry
+  113  poetry install --with ui,local
+  114  locate poetry
+  115  vi ~/.bashrc
+  116  ls -l ~/.local
+  117  ls -l ~/.local/bin
+  118  sudo apt install python3-poetry
+  119  locate poetry
+  120  which poetry
+  121  poetry install --with ui,local
+  122  ls -l /home/acampton/.local/bin/poetry
+  123  ls -l /home/acampton/.local/share/pypoetry/venv/bin/poetry
+  124  ls -l /home/acampton/.local/share/pypoetry/venv/
+  125  ls -l /home/acampton/.local/share/
+  126  ls -l /home/acampton/.local/bin/poetry
+  127  rm /home/acampton/.local/bin/poetry
+  128  ls -l /home/acampton/.local/bin/poetry
+  129  poetry install --with ui,local
+  130  locate poetry
+  131  which poetry
+  132  /home/acampton/anaconda3/envs/privategpt/bin/poetry
+  133  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+  134  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py 
+  135  curl -sSL https://install.python-poetry.org | python3 -
+  136  poetry install --with ui,local
+  137  exit
+  138  conda disactivate
+  139  conda unactivate
+  140  conda deactivate
+  141  conda activate privategpt
+  142  cd privateGPT/
+  143  ls
+  144  curl -fsSL https://ollama.com/install.sh | sh
+  145  sudoa apt install curl
+  146  sudo apt install curl
+  147  vi setup.sh
+  148  curl -fsSL https://ollama.com/install.sh | sh
+  149  ollama run mistral
+  150  ls
+  151  poetry init
+  152  exit
+  153  conda info --envs
+  154  conda activate h2ogpt
+  155  cd h2ogpt/
+  156  ls
+  157  df .
+  158  ls ~/Downloads/
+  159  ls ~/Downloads/ -l
+  160  ls
+  161  vi setenvs.sh 
+  162  cat setenvs.sh
+  163  ls
+  164  git pull
+  165  pip install -r requirements.txt 
+  166  pip install -r reqs_optional/requirements_optional_langchain.txt
+  167  sudo apt install -y build-essential
+  168  pip install -r reqs_optional/requirements_optional_langchain.txt
+  169  pip install -r reqs_optional/requirements_optional_gpt4all.txt
+  170  pip install -r reqs_optional/requirements_optional_langchain.urls.txt
+  171  nvidia-smi
+  172  python generate.py --base_model=h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v3 --score_model=None --prompt_type=human_bot --cli=True
+  173  ls -l run_model.sh 
+  174  vi ./run_model.sh 
+  175  ./run_model.sh 
+  176  pip install librosa
+  177  ./run_model.sh 
+  178  pip install python-doctr
+  179  pip install langchain
+  180  ./run_model.sh 
+  181  vi run_model.sh 
+  182  ./run_model.sh 
+  183  vi run_model.sh 
+  184  ./run_model.sh 
+  185  vi run_model.sh 
+  186  ./run_model.sh 
+  187  vi run_model.sh 
+  188  h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v3
+  189  ls h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v3
+  190  grep h2oai *
+  191  ls ~/.cache/huggingface/modules/transformers_modules/h2oai
+  192  ./run_model.sh 
+  193  pip install soundfile
+  194  pip install wavio
+  195  pip install librosa
+  196  ./run_model.sh 
+  197  exit
+  198  vi h2ogpt/setenvs.sh 
+  199  du -hs ~/.cache
+  200  vi h2ogpt/setenvs.sh 
+  201  nvtop
+  202  conda deactivate
+  203  sudo snap install nvtop 
+  204  nvtop
+  205  vi run_model.sh
+  206  chmod +x run_model.sh
+  207  nvtop
+  208  mv run_model.sh h2ogpt/
+  209  nvtop
+  210  top
+  211  vi privateGPT/poetry_inst.sh 
+  212  vi setup.sh
+  213  df .
+  214  df
+  215  sudo mount /dev/nvme0n1p7 /mnt
+  216  ls /mnt
+  217  sudo umount /mnt
+  218  sudo mount /dev/nvme0n1p6 /mnt
+  219  sudo umount /mnt
+  220  sudo mount /dev/sda4 /mnt
+  221  ls /mnt
+  222  ls /mnt/home/acampton/
+  223  ls /mnt/home/acampton2
+  224  ls /mnt/home/acampton2/privateGPT/
+  225  ls /mnt/home/acampton2/privateGPT/ -lt | head
+  226  ls /mnt/home/acampton2/privateGPT/run_private.sh 
+  227  cat /mnt/home/acampton2/privateGPT/run_private.sh
+  228  cat .env
+  229  cat /mnt/home/acampton2/privateGPT/.env
+  230  ls -lt /mnt/home/acampton2/privateGPT/.*
+  231  ls -lt /mnt/home/acampton2//.*
+  232  cat /mnt/home/acampton2/privateGPT/run_private.sh
+  233  ls
+  234  grep CUBLAS his.all 
+  235  conda activate privategpt
+  236  cd privateGPT/
+  237  poetry install --with ui,local
+  238  poetry run python scripts/setup 
+  239  CMAKE_ARGS="-DLLAMA_CUBLAS=on" poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
+  240  sudo apt update
+  241  sudo apt upgrade 
+  242  sudo apt install ubuntu-drivers-common
+  243  sudo ubuntu-drivers devices
+  244  sudo apt install nvidia-driver-535
+  245  nvcc
+  246  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+  247  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+  248  sudo apt-get update
+  249  sudo apt-get -y install cuda
+  250  sudo apt --fix-broken install
+  251  sudo apt-get -y install cuda
+  252  sudo ubuntu-drivers devices
+  253  sudo apt install nvidia-driver-550
+  254  history > install1.txt
+  255  sudo reboot
+  256  conda activate privategpt
+  257  cd privateGPT/
+  258  nvidia-smi
+  259  nvcc
+  260  sudo apt insatall gcc
+  261  sudo apt install gcc
+  262  sudo apt-get -y install cuda
+  263  nvcc
+  264  find /usr -name 12.4
+  265  locate 12.4
+  266  nvidia-smi
+  267  sudo reboot
+  268  vi ~/.bashrc
+  269  pwd
+  270  conda activate privategpt
+  271  cd privateGPT/
+  272  nvcc
+  273  find /usr -name "*12*"
+  274  find /usr -name "*12*" | grep "12\."
+  275  ls
+  276  history > install2.txt
+
+when trying to load in SEIRiP.pdf (9.6MB), I gets below
+
+ File "/home/acampton/anaconda3/envs/privategpt/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 349, in forward
+    attention_scores = attention_scores / math.sqrt(self.attention_head_size)
+                       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 120.00 MiB. GPU 0 has a total capacty of 7.77 GiB of which 77.94 MiB is free. Including non-PyTorch memory, this process has 7.39 GiB memory in use. Of the allocated memory 1.95 GiB is allocated by PyTorch, and 263.26 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
